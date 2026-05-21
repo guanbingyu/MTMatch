@@ -1,0 +1,17 @@
+reference_col,target_col
+No,No
+year,year
+month,month
+day,day
+hour,hour
+pm2.5,PM_Dongsi
+pm2.5,PM_Dongsihuan
+pm2.5,PM_Nongzhanguan
+pm2.5,PM_US Post
+DEWP,DEWP
+TEMP,TEMP
+PRES,PRES
+cbwd,cbwd
+Iws,Iws
+Ir,precipitation
+Ir,Iprec
