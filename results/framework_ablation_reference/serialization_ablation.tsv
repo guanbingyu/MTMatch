@@ -1,0 +1,5 @@
+task	variant	runs	mean_test_f1	std_test_f1	mean_test_p	mean_test_r
+DBLP-ACM	lm_full	1	0.979775	0.000000	0.977578	0.981982
+DBLP-ACM	shared_full	1	0.982103	0.000000	0.975556	0.988739
+Walmart-Amazon	lm_full	1	0.172168	0.000000	0.094192	1.000000
+Walmart-Amazon	shared_full	1	0.840336	0.000000	0.914634	0.777202

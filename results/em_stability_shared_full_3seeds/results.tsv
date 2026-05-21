@@ -1,0 +1,6 @@
+﻿task	seed	variant	n_ssl_epochs	head_type	status	return_code	duration_seconds	epoch	threshold	selection_metric	selection_beta	threshold_step	dev_f1	dev_p	dev_r	test_f1	test_p	test_r	run_dir
+DBLP-ACM	0	lm_full	0	full	completed	0	1626.22	3	0.25	f1	1.0	0.05	0.987682	0.982183	0.993243	0.979775	0.977578	0.981982	code\MTMatch\em_ablation_backbone_4datasets_20260414\DBLP-ACM_seed0_lm_full
+DBLP-ACM	0	shared_full	3	full	failed	1	3904.77	6	0.2	f1	1.0	0.05	0.985475	0.977827	0.993243	0.982103	0.975556	0.988739	code\MTMatch\em_ablation_backbone_4datasets_20260414\DBLP-ACM_seed0_shared_full
+Walmart-Amazon	0	lm_full	0	full	failed	1	550.47	1	0.0	f1	1.0	0.05	0.172168	0.094192	1.000000	0.172168	0.094192	1.000000	code\MTMatch\em_ablation_backbone_4datasets_20260414\Walmart-Amazon_seed0_lm_full
+Walmart-Amazon	0	shared_full	3	full	completed	0	2203.70	7	0.9	f1	1.0	0.05	0.849162	0.921212	0.787565	0.840336	0.914634	0.777202	code\MTMatch\em_ablation_backbone_4datasets_20260414\Walmart-Amazon_seed0_shared_full_rerun3
+

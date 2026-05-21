@@ -1,0 +1,3 @@
+variant	runs	mean_test_f1	std_test_f1	mean_test_p	mean_test_r
+lm_full	2	0.575971	0.571064	0.535885	0.990991
+shared_full	2	0.911220	0.100244	0.945095	0.882971

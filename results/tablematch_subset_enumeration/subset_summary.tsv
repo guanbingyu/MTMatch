@@ -1,0 +1,7 @@
+﻿metric	2_tables	8_tables
+fusion_f1	0.8889	0.7783
+fusion_p	1.0000	0.9576
+fusion_r	0.8000	0.6556
+cluster_f1	0.8889	0.7673
+cluster_p	1.0000	1.0000
+cluster_r	0.8000	0.6224

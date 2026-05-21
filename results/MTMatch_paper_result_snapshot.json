@@ -1,0 +1,104 @@
+﻿{
+    "tablematch_scalability":  [
+                                   {
+                                       "tables":  2,
+                                       "topk_p":  "1.0000",
+                                       "topk_r":  "0.8000",
+                                       "topk_f1":  "0.8889",
+                                       "cluster_p":  "1.0000",
+                                       "cluster_r":  "0.8000",
+                                       "cluster_f1":  "0.8889"
+                                   },
+                                   {
+                                       "tables":  3,
+                                       "topk_p":  "1.0000",
+                                       "topk_r":  "0.7455",
+                                       "topk_f1":  "0.8542",
+                                       "cluster_p":  "1.0000",
+                                       "cluster_r":  "0.7273",
+                                       "cluster_f1":  "0.8421"
+                                   },
+                                   {
+                                       "tables":  4,
+                                       "topk_p":  "1.0000",
+                                       "topk_r":  "0.6695",
+                                       "topk_f1":  "0.8020",
+                                       "cluster_p":  "1.0000",
+                                       "cluster_r":  "0.6441",
+                                       "cluster_f1":  "0.7835"
+                                   },
+                                   {
+                                       "tables":  5,
+                                       "topk_p":  "1.0000",
+                                       "topk_r":  "0.6814",
+                                       "topk_f1":  "0.8105",
+                                       "cluster_p":  "1.0000",
+                                       "cluster_r":  "0.6569",
+                                       "cluster_f1":  "0.7929"
+                                   },
+                                   {
+                                       "tables":  6,
+                                       "topk_p":  "1.0000",
+                                       "topk_r":  "0.6869",
+                                       "topk_f1":  "0.8144",
+                                       "cluster_p":  "1.0000",
+                                       "cluster_r":  "0.6613",
+                                       "cluster_f1":  "0.7962"
+                                   },
+                                   {
+                                       "tables":  7,
+                                       "topk_p":  "1.0000",
+                                       "topk_r":  "0.6537",
+                                       "topk_f1":  "0.7906",
+                                       "cluster_p":  "1.0000",
+                                       "cluster_r":  "0.6342",
+                                       "cluster_f1":  "0.7762"
+                                   },
+                                   {
+                                       "tables":  8,
+                                       "topk_p":  "0.9576",
+                                       "topk_r":  "0.6556",
+                                       "topk_f1":  "0.7783",
+                                       "cluster_p":  "1.0000",
+                                       "cluster_r":  "0.6224",
+                                       "cluster_f1":  "0.7673"
+                                   }
+                               ],
+    "em_ablation_backbone":  [
+                                 {
+                                     "variant":  "lm_full",
+                                     "runs":  "2",
+                                     "mean_test_f1":  "0.575971",
+                                     "std_test_f1":  "0.571064",
+                                     "mean_test_p":  "0.535885",
+                                     "mean_test_r":  "0.990991"
+                                 },
+                                 {
+                                     "variant":  "shared_full",
+                                     "runs":  "2",
+                                     "mean_test_f1":  "0.911220",
+                                     "std_test_f1":  "0.100244",
+                                     "mean_test_p":  "0.945095",
+                                     "mean_test_r":  "0.882971"
+                                 }
+                             ],
+    "em_ablation_paired_only":  [
+                                    {
+                                        "variant":  "lm_paired_only",
+                                        "runs":  "2",
+                                        "mean_test_f1":  "0.602450",
+                                        "std_test_f1":  "0.538465",
+                                        "mean_test_p":  "0.560620",
+                                        "mean_test_r":  "0.737893"
+                                    },
+                                    {
+                                        "variant":  "shared_paired_only",
+                                        "runs":  "2",
+                                        "mean_test_f1":  "0.925289",
+                                        "std_test_f1":  "0.077184",
+                                        "mean_test_p":  "0.930215",
+                                        "mean_test_r":  "0.920704"
+                                    }
+                                ],
+    "note":  "Workspace prefixes were stripped for the public package."
+}

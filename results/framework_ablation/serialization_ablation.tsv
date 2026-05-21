@@ -1,0 +1,5 @@
+task	variant	runs	mean_test_f1	std_test_f1	mean_test_p	mean_test_r
+DBLP-ACM	lm_paired_only	1	0.983203	0.000000	0.977728	0.988739
+DBLP-ACM	shared_paired_only	1	0.979866	0.000000	0.973333	0.986486
+Walmart-Amazon	lm_paired_only	1	0.221698	0.000000	0.143511	0.487047
+Walmart-Amazon	shared_paired_only	1	0.870712	0.000000	0.887097	0.854922
