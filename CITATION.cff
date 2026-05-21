@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use MTMatch or TableMatch, please cite the associated paper."
+title: "MTMatch: A Unified Framework for Column-level Table Matching and Record-level Entity Matching"
+authors:
+  - family-names: "Zhang"
+    given-names: "Xi"
+  - family-names: "Zhou"
+    given-names: "Zucai"
+  - family-names: "Guan"
+    given-names: "Bingyu"
+  - family-names: "Zhao"
+    given-names: "Yiming"
+date-released: "2026-05-21"
+version: "0.1.0"
+license: "BSD-3-Clause"

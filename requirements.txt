@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-learn
+sentencepiece
+spacy
+tensorboardX
+jsonlines
+nltk
+tqdm
+transformers
+torch
+mlflow
+loguru
+regex
